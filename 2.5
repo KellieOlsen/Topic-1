@@ -1,0 +1,17 @@
+import java.util. Scanner;
+
+public class Exfive {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter the subtotal and a gratuity rate: ");
+		double subtotal = input.nextDouble(), gratuityrate = input.nextDouble();
+		double gratuity = (subtotal * gratuityrate * 0.01);
+		double total = (subtotal + gratuity);
+		
+		System.out.print("The gratuity is $" + gratuity + " and the total is $" + total);
+
+	}
+
+}
