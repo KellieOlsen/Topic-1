@@ -1,0 +1,20 @@
+
+public class ExerciseOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    		System.out.println("Exercise 1.11 execution");
+		System.out.println("Births in one year = " + (31536000 / 7.0));
+		System.out.println("Immigrants in one year = " + (31536000 / 45.0));
+		System.out.println("Deaths in one year = " + (31536000 / 13.0));
+		System.out.println("Births + Immigrants - Deaths = " + (4505142.857142857 + 700800.0 - 2425846.153846154));
+		System.out.println();
+		System.out.println("Population after one year = " + (312032486 + 2780096.7032967033));
+		System.out.println("Population after two years = " + (3.148125827032967E8 + 2780096.7032967033));
+		System.out.println("Population after three years = " + (3.1759267940659344E8 + 2780096.7032967033));
+		System.out.println("Population after four years = " + (3.2037277610989016E8 + 2780096.7032967033));
+		System.out.println("Population after five years = " + (3.231528728131869E8 + 2780096.7032967033));
+    		
+	}
+
+}
